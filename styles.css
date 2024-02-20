@@ -638,23 +638,7 @@ label {
   text-align: left;
 }
 
-.myAvtar {
-  text-align: right; /* Align content to the right within the column */
-  padding-top: 50%; /* Adjust the top padding as needed for vertical centering */
-  position: relative;
-  height: 200px;
-  max-width: 100%;
-  width: 200px; /* Establish positioning context for the container */
-}
 
-.avatar-container {
-  position: absolute; /* Position the container relative to the parent */
-  top: 50%; /* Position the top of the container at the vertical center of the parent */
-  transform: translateY(-50%);
-  vertical-align: middle;
-  text-align: center;
-  /* Adjust the vertical position to center the container */
-}
 
 @media (max-width: 767px) .myAvtar {
   padding-bottom: 2em !important;
